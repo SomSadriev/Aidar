@@ -14,9 +14,10 @@ namespace ConsoleApp2.Unit.Weapons
             this.blade_length = blade_length;
         }
 
-        public new void Print_1()
+        public new void Print_1() // избавиться от нижних слешов
         {
             base.Print_1();
+            Console.WriteLine($"Blade length = {blade_length}");
             Console.WriteLine($"Blade length = {blade_length}");
         }
     }

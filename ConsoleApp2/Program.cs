@@ -20,5 +20,7 @@ class Program
         Console.WriteLine();
         Knife knife_2 = new Knife("Hawkbill", "Grey", 1, 2, 35, 200);
         knife_2.Print_1();
+
+        
     }
 }
